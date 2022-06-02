@@ -14,7 +14,7 @@
   }
 }
 
-.place__paragraph > p {
+.place__paragraph > p:first-child {
   margin: 0;
 }
 
