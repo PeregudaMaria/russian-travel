@@ -1,39 +1,39 @@
 .cover {
-    display: flex;
-    justify-content: center;
-    background-image: url(../../sprint-3-images/cover-trains.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    min-height: 740px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../../sprint-3-images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 740px;
 }
 
 .cover:hover {
-    opacity: 0.8;  
+  opacity: 0.8;
 }
-  
-  @media (max-width: 320px) {
-    .cover {
-      height: 200px;
-      width: 320px;
-      margin-top: 66px;
-      object-fit: cover;
-    }
-  }
 
-  @media (min-width: 321px) and (max-width: 768px) {
-    .cover {
-      margin: 0;
-      padding: 0;
-      height: 480px;
-      width: 768px;
-      margin-top: 90px;
-      object-fit: cover;
-    }
+@media (max-width: 320px) {
+  .cover {
+    height: 200px;
+    width: 320px;
+    margin-top: 66px;
+    object-fit: cover;
   }
+}
 
-  @media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 321px) and (max-width: 768px) {
+  .cover {
+    margin: 0;
+    padding: 0;
+    height: 480px;
+    width: 768px;
+    margin-top: 90px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
   .cover {
     margin: 0;
     padding: 0;
@@ -43,5 +43,3 @@
     object-fit: cover;
   }
 }
-
-

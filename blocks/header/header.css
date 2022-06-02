@@ -5,12 +5,10 @@
   justify-content: space-between;
 }
 
-  @media (max-width: 320px) {
-    .header {
-      margin: 0;
-      padding: 0;
-      margin-bottom: 48px;
-    }
+@media (max-width: 320px) {
+  .header {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 48px;
   }
-
-  
+}
