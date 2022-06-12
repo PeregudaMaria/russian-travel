@@ -11,6 +11,13 @@
   opacity: 0.5;
 }
 
+@media (max-width: 768px) {
+  .place__website {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
 @media (max-width: 320px) {
   .place__website {
     padding-left: 28px;
@@ -18,9 +25,3 @@
   }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
-  .place__website {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}

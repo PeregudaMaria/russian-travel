@@ -7,6 +7,14 @@
   max-width: 720px;
 }
 
+@media (max-width: 768px) {
+  .lead__title {
+    margin-bottom: 32px;
+    font-size: 96px;
+    line-height: 100px;
+  }
+}
+
 @media (max-width: 320px) {
   .lead__title {
     margin-bottom: 16px;
@@ -16,10 +24,3 @@
   }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
-  .lead__title {
-    margin-bottom: 32px;
-    font-size: 96px;
-    line-height: 100px;
-  }
-}

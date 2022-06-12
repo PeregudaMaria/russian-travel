@@ -6,23 +6,23 @@
   display: inherit;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
   .header__lang-links {
-    font-size: 18px;
-    line-height: 20px;
-    margin-top: 30px;
+    margin-right: 48px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .header__lang-links {
     font-size: 24px;
     line-height: 28px;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 320px) {
   .header__lang-links {
-    margin-right: 48px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 30px;
   }
 }

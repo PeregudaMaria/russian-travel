@@ -7,6 +7,14 @@
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 88px;
+    width: 720px;
+    margin-left: 24px;
+  }
+}
+
 @media (max-width: 320px) {
   .footer {
     display: flex;
@@ -14,13 +22,5 @@
     width: 186px;
     padding-top: 64px;
     margin-left: 16px;
-  }
-}
-
-@media (min-width: 321px) and (max-width: 768px) {
-  .footer {
-    padding-top: 88px;
-    width: 720px;
-    margin-left: 24px;
   }
 }

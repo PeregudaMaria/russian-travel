@@ -11,6 +11,12 @@
   opacity: 0.5;
 }
 
+@media (max-width: 768px) {
+  .header__lang-link {
+    margin-right: 24px;
+  }
+}
+
 @media (max-width: 320px) {
   .header__lang-link {
     margin: 0;
@@ -18,11 +24,5 @@
     margin-right: 16px;
     font-size: 18px;
     line-height: 20px;
-  }
-}
-
-@media (min-width: 321px) and (max-width: 768px) {
-  .header__lang-link {
-    margin-right: 24px;
   }
 }
