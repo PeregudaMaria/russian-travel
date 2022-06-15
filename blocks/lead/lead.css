@@ -6,31 +6,20 @@
   padding: 56px 100px 92px 100px;
 }
 
-.lead > figure {
-  margin: 0;
-}
-
 @media (max-width: 1024px) {
   .lead {
-    margin: 0;
-    padding: 0;
-    padding: 48px 0 88px 0;
+    padding: 48px 48px 92px 48px;
   }
 }
 
 @media (max-width: 768px) {
   .lead {
-    margin: 0;
-    padding: 0;
     padding: 48px 0 88px 0;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .lead {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 64px;
+    padding: 48px 0px 64px 0px;
   }
 }
-

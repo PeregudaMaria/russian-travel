@@ -1,4 +1,4 @@
-.place__url-heading {
+.place__card-url-heading {
   margin: 0;
   padding: 0;
   margin-bottom: 12px;
@@ -6,4 +6,5 @@
   font-size: 12px;
   line-height: 20px;
   color: #aaaaaa;
+  text-transform: uppercase;
 }

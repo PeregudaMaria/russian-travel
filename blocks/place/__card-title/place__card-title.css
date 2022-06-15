@@ -1,22 +1,20 @@
-.place__title {
+.place__card-title {
   margin: 0;
   font-size: 72px;
   line-height: 76px;
 }
 
 @media (max-width: 768px) {
-  .place__title {
+  .place__card-title {
     font-size: 42px;
     line-height: 46px;
   }
 }
 
-
-@media (max-width: 320px) {
-  .place__title {
+@media (max-width: 425px) {
+  .place__card-title {
     font-size: 32px;
     line-height: 35px;
-    align-self: flex-start;
-    margin-left: 16px;
+    padding: 0 16px 0px 16px;
   }
 }

@@ -1,0 +1,12 @@
+.place__card-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: solid 1px;
+}
+
+.place__card-link:hover {
+  opacity: 0.5;
+}
