@@ -1,4 +1,4 @@
-.place__card-link {
+.places__card-link {
   text-decoration: none;
   color: #fff;
   font-weight: normal;
@@ -7,6 +7,6 @@
   border-bottom: solid 1px;
 }
 
-.place__card-link:hover {
+.places__card-link:hover {
   opacity: 0.5;
 }

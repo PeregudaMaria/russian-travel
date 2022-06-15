@@ -1,9 +1,9 @@
-.place__card-website {
+.places__card-website {
   align-self: flex-end;
 }
 
 @media (max-width: 425px) {
-  .place__card-website {
+  .places__card-website {
     margin: 0;
     padding: 0;
     align-self: flex-start;
@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 768px) {
-  .place__card-website {
+  .places__card-website {
     font-size: 18px;
     line-height: 22px;
   }
