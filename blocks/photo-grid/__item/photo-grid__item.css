@@ -5,10 +5,10 @@
 
 @media (max-width: 425px) {
   .photo-grid__item {
-    padding-bottom: 12px;
+    margin-bottom: 12px;
   }
 
   .photo-grid__item:last-of-type {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }

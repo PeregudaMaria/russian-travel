@@ -6,6 +6,7 @@
 @import url("../fonts/Inter-Regular.woff2");
 
 @import url("../blocks/body/body.css");
+@import url("../blocks/page/page.css");
 
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__overlay/cover__overlay.css");
@@ -21,6 +22,7 @@
 @import url("../blocks/header/__lang-link/header__lang-link.css");
 @import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");
 @import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__lang-links-items/header__lang-links-items.css");
 
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__list/intro__list.css");
@@ -35,18 +37,15 @@
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__figure/lead__figure.css");
 
-@import url("../blocks/page/page.css");
-
 @import url("../blocks/photo-grid/photo-grid.css");
 @import url("../blocks/photo-grid/__item/photo-grid__item.css");
 
-@import url("../blocks/places/places__card.css");
+@import url("../blocks/places/places.css");
+@import url("../blocks/places/__card/places__card.css");
 @import url("../blocks/places/__card-image/places__card-image.css");
 @import url("../blocks/places/__card-link/places__card-link.css");
 @import url("../blocks/places/__card-paragraph/places__card-paragraph.css");
-@import url("../blocks/places/__first/places__first.css");
 @import url("../blocks/places/__card-title/places__card-title.css");
 @import url("../blocks/places/__card-url-heading/places__card-url-heading.css");
 @import url("../blocks/places/__card-website/places__card-website.css");
-
-@import url("../blocks/places/places.css");
+@import url("../blocks/places/__card-text/places__card-text.css");
