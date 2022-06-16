@@ -6,22 +6,14 @@
   text-decoration: none;
 }
 
-
 .header__lang-link:hover {
   opacity: 0.5;
-}
-
-@media (max-width: 768px) {
-  .header__lang-link {
-    margin-right: 24px;
-  }
 }
 
 @media (max-width: 425px) {
   .header__lang-link {
     margin: 0;
     padding: 0;
-    margin-right: 16px;
     font-size: 18px;
     line-height: 20px;
   }
